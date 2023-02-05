@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: yellow;
+    height: 35px;
+}
+
+nav ul li {
+    font-size: 19px;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.gamecontainor {
+    margin-top: 10px;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.gameinfo {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+
+.boxcontaior {
+    border: 5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.boxcontaior:hover {
+    background-color: rgb(241, 199, 178);
+}
+
+.textbox {
+    font-size: 16vh;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.gamename {
+    margin-left: 17px;
+}
+
+h1 {
+    font-size: 29px;
+    font-weight: bold;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* .turnname {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+
+
+/* padding: 30px; */
+
+*/ #reset {
+    margin-left: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#reset:hover {
+    background-color: rgba(235, 139, 139, 0.927);
+}
